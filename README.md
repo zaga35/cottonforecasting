@@ -1,7 +1,7 @@
 # Cotton Price Forecasting
-<b>My unsupervised machine learning model was able to predict about 72.4% of variance in cotton prices using only inflation and crop yield data.</b>
+<b>My unsupervised machine learning model was able to predict about 72.4% of the variance in cotton prices using only inflation and crop yield data.</b>
 
-This is a simple model that generalizes well, but if I was building for production, I would include additional indicators (e.g. prices of related commodities, textile production volumes, fertilizer prices, satellite images, USDA Reports, drought data, etc.) and use feature importance analysis to optimize.
+This is a simple model that generalizes well, but if I were building for production, I would include additional indicators (e.g. prices of related commodities, textile production volumes, fertilizer prices, satellite images, USDA Reports, drought data, etc.) and use feature importance analysis to optimize.
 
 I used:
 * Historical cotton price data from Macrotrends
@@ -9,9 +9,9 @@ I used:
 * Inflation data from Federal Reserve Bank Economic Data.
 
 # Results
-In the image below, the red dotted line represents the line of perfect prediction. Ideally the dots should be along this line where actual prices always equal predicted prices.
+In the image below, the red dotted line represents the line of perfect prediction. Ideally, the dots should be along this line where actual prices always equal predicted prices.
 
-It is clear that my ML model fit to the line of perfect prediction much better than a linear regression model. It outperformed linear regression both in Mean Square Error (MSE) and R-squared. MSE is the average squared difference between the actual and predicted values, so the lower MSE of about 0.011 is better than 0.0386. R-squared indicated the proportion of variance in the dependent variable that can be predicted from the independent variables. There for a value of 0.724 represents 72.4% predicted variance and 0.011 represents only 1.1% predicted variance.
+It is clear that my ML model fits the line of perfect prediction much better than a linear regression model. It outperformed linear regression both in Mean Square Error (MSE) and R-squared. MSE is the average squared difference between the actual and predicted values, so the lower MSE of about 0.011 is better than 0.0386. R-squared indicates the proportion of variance in the dependent variable that can be predicted from the independent variables. Therefore, a value of 0.724 represents 72.4% predicted variance, and 0.011 represents only 1.1% predicted variance.
 
 
 ![Screenshot 2024-07-15 091538](https://github.com/user-attachments/assets/de6b7c5b-bb9a-4778-84b9-664c096d7d4c)
